@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="app_bar_height">140dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="item_coupon_outer_margin">16dp</dimen>
+    <dimen name="item_coupon_inner_margin">16dp</dimen>
+    <dimen name="item_coupon_image_height">140dp</dimen>
+
+    <dimen name="coupon_detail_app_bar_height">280dp</dimen>
+    <dimen name="coupon_detail_horizontal_margin">16dp</dimen>
+
+</resources>

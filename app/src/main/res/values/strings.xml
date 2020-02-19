@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Coupons</string>
+    <string name="activate">Activar</string>
+    <string name="activated">Activado</string>
+    <string name="not_activated">Desactivado</string>
+    <string name="action_settings">Settings</string>
+    <string name="product_code">Código del producto</string>
+    <string name="discount">Descuento</string>
+    <string name="percent_discount">-%1$d%%</string>
+
+    <plurals name="activated_coupon_count">
+        <item quantity="one">%d cupón activado</item>
+        <item quantity="other">%d cupones activados</item>
+    </plurals>
 </resources>

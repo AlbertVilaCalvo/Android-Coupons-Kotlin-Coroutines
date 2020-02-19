@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_coupon_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_coupon_image_height"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Platano de Canarias" />
+
+        <TextView
+            android:id="@+id/item_coupon_name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_coupon_inner_margin"
+            android:layout_marginTop="@dimen/item_coupon_inner_margin"
+            android:textColor="@color/black_80"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_coupon_imageView"
+            tools:text="Platano de Canarias" />
+
+        <TextView
+            android:id="@+id/item_coupon_expire_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_coupon_inner_margin"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black_54"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_coupon_name_textView"
+            tools:text="3 días para finalizar" />
+
+        <Button
+            android:id="@+id/item_coupon_activate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_coupon_inner_margin"
+            android:layout_marginEnd="@dimen/item_coupon_inner_margin"
+            android:layout_marginBottom="@dimen/item_coupon_inner_margin"
+            android:text="@string/activate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_coupon_imageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
