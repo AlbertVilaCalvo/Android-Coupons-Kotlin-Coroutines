@@ -2,7 +2,7 @@
 
 This is a simple Android app that I did for a job interview process.
 
-The app is build with entirely with Kotlin. It uses Coroutines for asynchronous work, Koin for Dependency Injection and Coil for loading images.
+The app is build with entirely with Kotlin. It uses [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous work, [Koin](https://github.com/InsertKoinIO/koin) for Dependency Injection and [Coil](https://github.com/coil-kt/coil) for loading images.
 
 There are unit tests for one Presenter and one Use Case.
 
